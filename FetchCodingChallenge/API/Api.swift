@@ -18,8 +18,9 @@ protocol Api {
 
 // MARK: Api Functions (Extension)
 extension Api {
-    /// <#Description#>
-    /// - Returns: <#description#>
+    /// Create a network request.
+    /// - Note: Should generally only be consumed via `requestData(_:)`, unless response body is irrelevant.
+    /// - Returns: The response data from the network request.
     func request() async throws -> Data {
         var components = URLComponents()
         components.scheme = "https"
@@ -36,9 +37,9 @@ extension Api {
         return try await URLSession.shared.data(for: request).0
     }
     
-    /// <#Description#>
-    /// - Parameter responseType: <#responseType description#>
-    /// - Returns: <#description#>
+    /// Create a network request with a pre-defined returned data type.
+    /// - Parameter responseType: The response data type returned from the API.
+    /// - Returns: The API response, decoded to the given response type.
     func requestData<T: Decodable>(_ responseType: T.Type) async throws -> T {
         let data = try await request()
         do {
