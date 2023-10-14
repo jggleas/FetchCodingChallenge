@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: Api
+// MARK: - Api
 protocol Api {
     var method: HttpMethod { get }
     var host: String { get }
@@ -16,7 +16,7 @@ protocol Api {
     var body: Data? { get }
 }
 
-// MARK: Api Functions (Extension)
+// MARK: - Api Functions (Extension)
 extension Api {
     /// Create a network request.
     /// - Note: Should generally only be consumed via `requestData(_:)`, unless response body is irrelevant.
@@ -50,7 +50,7 @@ extension Api {
     }
 }
 
-// MARK: HttpMethod
+// MARK: - HttpMethod
 enum HttpMethod: String {
     case GET
     case POST
