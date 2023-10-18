@@ -37,7 +37,7 @@ final class MealsView: UIView {
                 guard let self else { return }
                 
                 mealsTableView.reloadData()
-                hideLoading()
+                hide(.loading)
             }
         }
     }

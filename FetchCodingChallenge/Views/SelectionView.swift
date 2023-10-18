@@ -26,9 +26,7 @@ class SelectionView: UIView {
     init(tintColor: UIColor = .black) {
         super.init(frame: .zero)
         
-        layer.borderWidth = 1
-        layer.borderColor = tintColor.cgColor
-        
+        setBorder(width: 1, color: tintColor)
         addSubview(selectedImageView)
         addConstraints([
             selectedImageView.topAnchor.constraint(equalTo: topAnchor),

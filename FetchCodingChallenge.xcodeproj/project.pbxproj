@@ -12,7 +12,6 @@
 		040D80492AD9E41900A293F3 /* MealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D80482AD9E41900A293F3 /* MealService.swift */; };
 		040D804B2AD9E6A000A293F3 /* MealsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D804A2AD9E6A000A293F3 /* MealsViewModel.swift */; };
 		040D804D2AD9E77A00A293F3 /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D804C2AD9E77A00A293F3 /* MealDetails.swift */; };
-		040D804F2AD9EB0600A293F3 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D804E2AD9EB0600A293F3 /* Ingredient.swift */; };
 		040D80522AD9F47900A293F3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D80512AD9F47900A293F3 /* UIView.swift */; };
 		040D80572ADA04B300A293F3 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D80542ADA04B300A293F3 /* MealDetailsViewController.swift */; };
 		040D80582ADA04B300A293F3 /* MealDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D80552ADA04B300A293F3 /* MealDetailsViewModel.swift */; };
@@ -21,6 +20,9 @@
 		040D80612ADA321000A293F3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D80602ADA321000A293F3 /* CustomTableViewCell.swift */; };
 		040D80652ADA399500A293F3 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D80642ADA399500A293F3 /* SelectionView.swift */; };
 		045506942AD792AD00E669C6 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045506932AD792AD00E669C6 /* ApiError.swift */; };
+		048B54C22ADF352600C5E4C7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B54C12ADF352600C5E4C7 /* DataManager.swift */; };
+		048B54C82ADF3FC100C5E4C7 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B54C72ADF3FC100C5E4C7 /* Ingredient.swift */; };
+		048B54D62ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048B54D42ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodeld */; };
 		04E4297D2AD7885000F091FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4297C2AD7885000F091FA /* AppDelegate.swift */; };
 		04E429812AD7885000F091FA /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E429802AD7885000F091FA /* MealsViewController.swift */; };
 		04E429862AD7885100F091FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E429852AD7885100F091FA /* Assets.xcassets */; };
@@ -53,7 +55,6 @@
 		040D80482AD9E41900A293F3 /* MealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealService.swift; sourceTree = "<group>"; };
 		040D804A2AD9E6A000A293F3 /* MealsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewModel.swift; sourceTree = "<group>"; };
 		040D804C2AD9E77A00A293F3 /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
-		040D804E2AD9EB0600A293F3 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		040D80512AD9F47900A293F3 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		040D80542ADA04B300A293F3 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
 		040D80552ADA04B300A293F3 /* MealDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -61,6 +62,9 @@
 		040D80602ADA321000A293F3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		040D80642ADA399500A293F3 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		045506932AD792AD00E669C6 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		048B54C12ADF352600C5E4C7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		048B54C72ADF3FC100C5E4C7 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		048B54D52ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DessertsGaloreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		04E429792AD7885000F091FA /* FetchCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E4297C2AD7885000F091FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E429802AD7885000F091FA /* MealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
@@ -103,9 +107,9 @@
 		040D80452AD9DFF300A293F3 /* Types */ = {
 			isa = PBXGroup;
 			children = (
+				048B54C72ADF3FC100C5E4C7 /* Ingredient.swift */,
 				040D80462AD9E00100A293F3 /* Meal.swift */,
 				040D804C2AD9E77A00A293F3 /* MealDetails.swift */,
-				040D804E2AD9EB0600A293F3 /* Ingredient.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -137,6 +141,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		048B54C02ADF351100C5E4C7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				048B54C12ADF352600C5E4C7 /* DataManager.swift */,
+				048B54D42ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		04E429702AD7885000F091FA = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +174,7 @@
 			children = (
 				04E429AC2AD788AD00F091FA /* Delegate */,
 				04E429AE2AD788C600F091FA /* API */,
+				048B54C02ADF351100C5E4C7 /* Data */,
 				040D80452AD9DFF300A293F3 /* Types */,
 				04E429AD2AD788B600F091FA /* Meals */,
 				040D80532ADA047000A293F3 /* Meal Details */,
@@ -348,6 +362,7 @@
 			files = (
 				040D80582ADA04B300A293F3 /* MealDetailsViewModel.swift in Sources */,
 				040D804B2AD9E6A000A293F3 /* MealsViewModel.swift in Sources */,
+				048B54C82ADF3FC100C5E4C7 /* Ingredient.swift in Sources */,
 				040D80572ADA04B300A293F3 /* MealDetailsViewController.swift in Sources */,
 				04E429B22AD7894200F091FA /* MealApi.swift in Sources */,
 				04E429812AD7885000F091FA /* MealsViewController.swift in Sources */,
@@ -356,12 +371,13 @@
 				040D80592ADA04B300A293F3 /* MealDetailsView.swift in Sources */,
 				040D80612ADA321000A293F3 /* CustomTableViewCell.swift in Sources */,
 				040D804D2AD9E77A00A293F3 /* MealDetails.swift in Sources */,
+				048B54D62ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodeld in Sources */,
 				040D80492AD9E41900A293F3 /* MealService.swift in Sources */,
 				04E429B02AD788D800F091FA /* Api.swift in Sources */,
 				045506942AD792AD00E669C6 /* ApiError.swift in Sources */,
+				048B54C22ADF352600C5E4C7 /* DataManager.swift in Sources */,
 				040D80422AD8AE2B00A293F3 /* MealsView.swift in Sources */,
 				040D80522AD9F47900A293F3 /* UIView.swift in Sources */,
-				040D804F2AD9EB0600A293F3 /* Ingredient.swift in Sources */,
 				040D80652ADA399500A293F3 /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -724,6 +740,19 @@
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		048B54D42ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048B54D52ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodel */,
+			);
+			currentVersion = 048B54D52ADF46AE00C5E4C7 /* DessertsGaloreDataModel.xcdatamodel */;
+			path = DessertsGaloreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04E429712AD7885000F091FA /* Project object */;
 }

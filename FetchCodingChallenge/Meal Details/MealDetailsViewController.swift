@@ -41,8 +41,12 @@ extension MealDetailsViewController: MealDetailsViewModelDelegate {
     }
     
     func loadingFailed(with error: Error) {
-        // TODO: Show Error
-        print("Loading failed with error: \(String(describing: error))")
+        DispatchQueue.main.async { [weak self] in
+            guard let self else { return }
+            
+            mealDetailsView.hide(.loading)
+            mealDetailsView.showError(String(describing: error))
+        }
     }
 }
 

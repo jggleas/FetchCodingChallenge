@@ -11,7 +11,9 @@ struct Ingredient: Decodable {
     /// The measurement amount needed of the ingredient.
     let measurement: String
     /// `true` if the user owns enough of this ingredient to cover the given measurement, `false` otherwise.
-    var owned: Bool = false
+    var owned: Bool {
+        return !DataManager.shared.ingredients(ingredient: self).isEmpty
+    }
     
     /// Initialize an ingredient with the given parameters.
     /// - Parameters:

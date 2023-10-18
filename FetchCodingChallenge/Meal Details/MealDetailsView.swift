@@ -116,7 +116,7 @@ final class MealDetailsView: UIView {
                 guard let self else { return }
                 
                 updateData()
-                hideLoading()
+                hide(.loading)
             }
         }
     }
@@ -225,7 +225,14 @@ extension MealDetailsView: UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell = tableView.cellForRow(at: indexPath) as? CustomTableViewCell else { return }
         cell.cellSelectionView.selected.toggle()
-        mealDetails.ingredients[indexPath.row].owned = cell.cellSelectionView.selected
+        if cell.cellSelectionView.selected {
+            DataManager.shared.createIngredient(
+                name: mealDetails.ingredients[indexPath.row].name,
+                measurement: mealDetails.ingredients[indexPath.row].measurement
+            )
+        } else {
+            DataManager.shared.deleteIngredient(mealDetails.ingredients[indexPath.row])
+        }
     }
 }
 
