@@ -70,7 +70,7 @@ final class MealDetails: Meal {
                 .trimmingCharacters(in: .whitespaces)
             let measurement = try container.decode(String.self, forKey: CodingKeys(stringValue: "strMeasure\(i)")!)
                 .trimmingCharacters(in: .whitespaces)
-            guard !name.isEmpty else { break }
+            guard !name.isEmpty else { continue }
             ingredients.append(.init(name: name, measurement: measurement))
         }
         

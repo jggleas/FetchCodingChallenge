@@ -40,13 +40,6 @@
 			remoteGlobalIDString = 04E429782AD7885000F091FA;
 			remoteInfo = FetchCodingChallenge;
 		};
-		04E4299A2AD7885100F091FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04E429712AD7885000F091FA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04E429782AD7885000F091FA;
-			remoteInfo = FetchCodingChallenge;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -73,7 +66,6 @@
 		04E4298A2AD7885100F091FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E4298F2AD7885100F091FA /* FetchCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E429932AD7885100F091FA /* FetchCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCodingChallengeTests.swift; sourceTree = "<group>"; };
-		04E429992AD7885100F091FA /* FetchCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E429AF2AD788D800F091FA /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		04E429B12AD7894200F091FA /* MealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,13 +80,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04E4298C2AD7885100F091FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04E429962AD7885100F091FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,7 +149,6 @@
 			children = (
 				04E429792AD7885000F091FA /* FetchCodingChallenge.app */,
 				04E4298F2AD7885100F091FA /* FetchCodingChallengeTests.xctest */,
-				04E429992AD7885100F091FA /* FetchCodingChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,24 +249,6 @@
 			productReference = 04E4298F2AD7885100F091FA /* FetchCodingChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04E429982AD7885100F091FA /* FetchCodingChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04E429A92AD7885100F091FA /* Build configuration list for PBXNativeTarget "FetchCodingChallengeUITests" */;
-			buildPhases = (
-				04E429952AD7885100F091FA /* Sources */,
-				04E429962AD7885100F091FA /* Frameworks */,
-				04E429972AD7885100F091FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04E4299B2AD7885100F091FA /* PBXTargetDependency */,
-			);
-			name = FetchCodingChallengeUITests;
-			productName = FetchCodingChallengeUITests;
-			productReference = 04E429992AD7885100F091FA /* FetchCodingChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -297,10 +263,6 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					04E4298E2AD7885100F091FA = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 04E429782AD7885000F091FA;
-					};
-					04E429982AD7885100F091FA = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 04E429782AD7885000F091FA;
 					};
@@ -324,7 +286,6 @@
 			targets = (
 				04E429782AD7885000F091FA /* FetchCodingChallenge */,
 				04E4298E2AD7885100F091FA /* FetchCodingChallengeTests */,
-				04E429982AD7885100F091FA /* FetchCodingChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,13 +301,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04E4298D2AD7885100F091FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04E429972AD7885100F091FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,13 +344,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E429952AD7885100F091FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -404,11 +351,6 @@
 			isa = PBXTargetDependency;
 			target = 04E429782AD7885000F091FA /* FetchCodingChallenge */;
 			targetProxy = 04E429902AD7885100F091FA /* PBXContainerItemProxy */;
-		};
-		04E4299B2AD7885100F091FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04E429782AD7885000F091FA /* FetchCodingChallenge */;
-			targetProxy = 04E4299A2AD7885100F091FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -645,42 +587,6 @@
 			};
 			name = Release;
 		};
-		04E429AA2AD7885100F091FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 729W7ZKQ2F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobgleason.fetch.FetchCodingChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchCodingChallenge;
-			};
-			name = Debug;
-		};
-		04E429AB2AD7885100F091FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 729W7ZKQ2F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobgleason.fetch.FetchCodingChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchCodingChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -707,15 +613,6 @@
 			buildConfigurations = (
 				04E429A72AD7885100F091FA /* Debug */,
 				04E429A82AD7885100F091FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04E429A92AD7885100F091FA /* Build configuration list for PBXNativeTarget "FetchCodingChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04E429AA2AD7885100F091FA /* Debug */,
-				04E429AB2AD7885100F091FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
